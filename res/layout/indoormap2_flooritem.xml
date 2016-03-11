@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="5dp"
+    android:background="#ffffff" >
+
+    <TextView
+        android:id="@+id/floornum"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/louceng"
+        android:text="1"
+        android:textSize="20dp"
+        android:gravity="center"
+        android:textColor="#1EB1F7"
+       />
+    <TextView
+        android:id="@+id/floorname"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:paddingLeft="5dp"
+        android:text="canyin"
+        android:textSize="20dp"
+        android:gravity="center_vertical"
+        android:textColor="#1EB1F7"
+       />
+ <TextView
+        android:id="@+id/floordetail"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:paddingLeft="5dp"
+        android:textSize="15dp"
+        android:gravity="center_vertical"
+        android:textColor="#8e8e8e"
+       />
+</LinearLayout>

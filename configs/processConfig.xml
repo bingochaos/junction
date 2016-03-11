@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<process_config>
+	<phone_spectrum_path>
+		<path>/Spectrum/spectrum_phone.csv</path>
+		<description>手机频谱表存放位置</description>
+	</phone_spectrum_path>
+	<location_table_path>
+		<path>/MatchTable/location.csv</path>
+		<description>位置表存放位置</description>
+	</location_table_path>
+	<distance_path>
+		<path>/Area/distance</path>
+		<description>距离表存放位置</description>
+	</distance_path>
+	<area_path>
+		<path>/Area/pointCorrespondArea</path>
+		<description>范围表存放位置</description>
+	</area_path>
+</process_config>

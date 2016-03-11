@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <nlsde.junction.topbar.TopBar
+        android:id="@+id/topbar_list"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/daohanglan"
+        custom:title="@string/shuniuquan"
+        custom:titleTextColor="#ffffff"
+        custom:titleTextSize="10dp" >
+    </nlsde.junction.topbar.TopBar>
+
+    <nlsde.tools.RefreshableView
+        android:id="@+id/refreshable_junctions"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <nlsde.junction.searchbar.ListViewLoadMore
+            android:id="@+id/junction_list"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#FFFFFF"
+            android:padding="0dp"
+ />
+    </nlsde.tools.RefreshableView>
+
+    <TextView
+        android:id="@id/android:empty"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#FFFFFF"
+        android:text="No data" />
+
+</LinearLayout>

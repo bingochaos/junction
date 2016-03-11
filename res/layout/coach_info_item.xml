@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp" 
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/coach_info_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:textSize="20dp"
+       />
+
+        <LinearLayout
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+             >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/coach_info_schId"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+              
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                <TextView
+                    android:id="@+id/coach_info_routeName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                   />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/coach_info_start2dest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+              
+                android:textColor="#e55c83"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/renmingbi" 
+            android:textColor="#e55c83"/>
+
+        <TextView
+            android:id="@+id/coach_info_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+             android:textColor="#e55c83"
+          />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="10dp"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+                <TextView 
+                    android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:text="@string/zuo"/>
+                 <TextView 
+                     android:id="@+id/coach_info_seats"
+                    android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:textColor="#6ec636"
+            	/>
+                 
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+                  <TextView 
+                    android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:text="@string/yu"/>
+                   <TextView 
+                       android:id="@+id/coach_info_rest"
+                    android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:textColor="#6ec636"
+            		/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <nlsde.junction.topbar.TopBar
+        android:id="@+id/topbar_coach_info"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/daohanglan"
+        custom:titleTextColor="#ffffff"
+        custom:titleTextSize="10dp" >
+    </nlsde.junction.topbar.TopBar>
+
+<LinearLayout
+    android:id="@+id/coach_info_body"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_below="@+id/topbar_coach_info"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/topbar_coach_info"
+        android:padding="5dp" >
+
+        <TextView
+            android:id="@+id/coach_info_day1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#6bc5e8"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="2015-01-01"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/coach_info_day2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="2015-01-01"
+            android:textColor="#8e8e8e" />
+
+        <TextView
+            android:id="@+id/coach_info_day3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="2015-01-01"
+            android:textColor="#8e8e8e" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view1"
+        android:layout_width="fill_parent"
+        android:layout_height="5dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/linearLayout1"
+        android:background="#f1efef" />
+
+    <ListView
+        android:id="@+id/coach_info_list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/relativeLayout1"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/view1"
+        android:paddingLeft="20dp" 
+        android:paddingRight="20dp">
+    </ListView>
+</LinearLayout>
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="#000000"
+        android:gravity="center_vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:paddingLeft="20dp"
+            android:text="@string/fabushijian"
+            android:textColor="#FFFFFF" />
+
+        <TextView
+            android:id="@+id/coach_info_pubtime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView1"
+            android:layout_alignBottom="@+id/textView1"
+            android:layout_toRightOf="@+id/textView1"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/coach_info_refresh"
+            android:layout_width="60dp"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="13dp"
+            android:background="@drawable/shape_white"
+            android:gravity="center"
+            android:text="@string/shuaxin"
+            android:textColor="#FFFFFF" />
+    </RelativeLayout>
+
+</RelativeLayout>

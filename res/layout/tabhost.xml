@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    
+     android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+     >
+
+	
+ 
+	<TabHost
+    android:id="@android:id/tabhost"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="#e3e2e2"
+ >
+    
+ 		<RelativeLayout  
+        android:layout_width="fill_parent"  
+        android:layout_height="wrap_content"  
+        android:background="#ffffff"
+         >  
+        <!-- 内容显示 -->  
+        <FrameLayout  
+            android:id="@android:id/tabcontent"  
+            android:layout_width="fill_parent"  
+            android:layout_height="fill_parent"
+            android:layout_above="@android:id/tabs" >  
+
+        </FrameLayout>  
+        <View
+        android:layout_width="fill_parent"
+        android:layout_height="1sp"
+        android:layout_above="@android:id/tabs"
+        android:background="#e3e2e2"/>
+        <TabWidget  
+            android:id="@android:id/tabs"  
+            android:layout_width="fill_parent"  
+            android:layout_height="wrap_content"  
+            android:layout_alignParentBottom="true"
+            android:background="#f8f7f7" 
+             >  
+        </TabWidget>  
+        <!-- 选项卡背景图片 -->  
+
+        <ImageView
+            android:id="@+id/tab_top_select"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentBottom="true" />
+  
+    </RelativeLayout>  
+
+</TabHost>
+<RelativeLayout
+        android:id="@+id/tips_junctions"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+         >
+
+        <ImageView
+            android:id="@+id/tips_liebiao"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/tips_liebiao" />
+
+        <ImageView
+            android:id="@+id/tips_dingweiziji"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/tips_dingweiziji" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="130dp"
+            android:layout_height="80dp"
+            android:layout_below="@+id/tips_liebiao"
+            android:layout_toRightOf="@+id/tips_liebiao"
+            android:src="@drawable/tips_icon1" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="220dp"
+            android:layout_height="145dp"
+            android:layout_alignRight="@+id/tips_dingweiziji"
+            android:layout_alignTop="@+id/imageView1"
+            android:layout_marginRight="16dp"
+            android:src="@drawable/tips_icon2" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/tips_shuniutong" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="170dp"
+            android:layout_height="110dp"
+            android:layout_above="@+id/imageView3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="26dp"
+            android:src="@drawable/tips_icon3" />
+
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" 
+    android:background="#FFFFFF"
+    
+    >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:background="@drawable/daohanglan"
+        android:layout_height="50dp" >
+		<Button
+            android:id="@+id/btn_title_left"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/fanhui"
+            android:gravity="center_vertical"
+            android:lines="1" ></Button>
+        
+        <cn.w.song.widget.navigation.PressNavigationBar
+        android:id="@+id/navigationbartest"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+        </cn.w.song.widget.navigation.PressNavigationBar>
+
+        
+    </RelativeLayout>
+<LinearLayout 
+    android:id="@+id/airport_container"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    
+    >
+
+  </LinearLayout> 
+
+
+   
+</LinearLayout>

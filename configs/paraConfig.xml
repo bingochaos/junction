@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<para_config>
+	<buff_time>
+		<value>4</value>
+		<description>缓存数据的时间，用于计算定位所需数据</description>
+	</buff_time>
+	<buff_size>
+		<value>2</value>
+		<description>缓存数据的数量，用于计算定位所需数据</description>
+	</buff_size>
+	<float_margin>
+		<value>8</value>
+		<desdescription>差距在5dB以内，选取该点</desdescription>
+	</float_margin>
+	<union_phone_size>
+		<value>3</value>
+		<desdescription>一轮手机定位时至少有union_size个范围包含此点时，选取该点</desdescription>
+	</union_phone_size>
+</para_config>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#e0000000" >
+    
+  <LinearLayout
+        android:id="@+id/toolbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape"  >
+
+        <ImageButton
+            android:id="@+id/indoormap2_navigate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/indoormap_barleft"
+            android:layout_weight="1" />
+
+      <TextView 
+          android:layout_width="2dp"
+          android:layout_height="match_parent"
+          android:background="#cccccc"/>  
+        <ImageButton
+            android:id="@+id/indoormap2_location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/indoormap_barright" 
+            android:layout_weight="1" />
+     
+    </LinearLayout>
+</LinearLayout>

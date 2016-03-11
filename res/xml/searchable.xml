@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<searchable xmlns:android="http://schemas.android.com/apk/res/android"
+
+	android:label="@string/search_dialog"
+	android:hint="@string/search"
+	android:searchMode="queryRewriteFromText"
+        android:includeInGlobalSearch="true"
+        android:queryAfterZeroResults="true"
+ >    
+</searchable>

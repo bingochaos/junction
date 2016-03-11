@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <nlsde.junction.topbar.TopBar
+        android:id="@+id/topbar_junctions"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/daohanglan"
+        custom:titleTextColor="#ffffff"
+        custom:titleTextSize="10dp" >
+    </nlsde.junction.topbar.TopBar>
+
+    <com.etsy.android.grid.StaggeredGridView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/grid_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/topbar_junctions"
+        app:column_count_landscape="2"
+        app:column_count_portrait="2"
+        app:item_margin="3dp" />
+
+    
+
+</RelativeLayout>

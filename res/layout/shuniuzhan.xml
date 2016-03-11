@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <nlsde.junction.topbar.TopBar 
+        custom:titleTextSize="10dp" 
+        android:id="@+id/topbar_shuniuzhan"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/daohanglan"></nlsde.junction.topbar.TopBar>
+      <nlsde.tools.RefreshableView 
+      android:id="@+id/refreshable_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"  >
+      
+ 		<ListView android:id="@id/android:list"  
+              android:layout_width="match_parent"  
+              android:layout_height="match_parent"  
+              android:background="#FFFFFF"  
+              android:layout_weight="1"  
+              android:drawSelectorOnTop="false"
+              />  
+   </nlsde.tools.RefreshableView>
+    <TextView android:id="@id/android:empty"  
+              android:layout_width="match_parent"  
+              android:layout_height="match_parent"  
+              android:background="#FFFFFF"  
+              android:text="No data"/>  
+
+</LinearLayout>

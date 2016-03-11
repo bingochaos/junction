@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#FFFFFF">
+     <nlsde.junction.topbar.TopBar 
+        android:id="@+id/topbar_moreinfo_introdction"
+        android:layout_width="fill_parent"
+        custom:titleTextSize="10dp" 
+        custom:titleTextColor="#ffffff"
+        custom:title=""
+        android:layout_height="50dp"
+        android:background="@drawable/daohanglan"></nlsde.junction.topbar.TopBar>
+     <WebView 
+         android:id="@+id/introduction_webview"
+         android:layout_width="fill_parent"
+         android:layout_height="fill_parent"/>
+
+</LinearLayout>

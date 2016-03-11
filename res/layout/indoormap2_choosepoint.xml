@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff" >
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/daohanglan"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/search_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:background="@android:color/holo_blue_light"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:text="@string/queding" />
+
+        <Button
+            android:id="@+id/search_back"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:padding="5dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="11dp"
+            android:background="@drawable/fanhui" />
+
+        <EditText
+            android:id="@+id/search_key"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_alignBottom="@+id/search_back"
+            android:layout_alignTop="@+id/search_back"
+            android:layout_toLeftOf="@+id/search_start"
+            android:layout_toRightOf="@+id/search_back"
+            android:background="@android:color/white"
+            android:drawableLeft="@drawable/sousuo_gray"
+            android:inputType="text"
+            android:hint="@string/shuruninxiangyaochazhaodeweizhi"
+            android:textColorHint="#cccccc"
+            android:ems="10"
+            android:textColor="@android:color/black" 
+            android:imeOptions="actionSearch"
+            android:singleLine="true">
+
+            <requestFocus />
+        </EditText>
+
+        <Button
+            android:id="@+id/search_cancel"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignBaseline="@+id/search_key"
+            android:layout_alignBottom="@+id/search_key"
+            android:layout_alignRight="@+id/search_key"
+            android:background="@drawable/indoormap_search_cancel" />
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#DDDDDD"
+        android:padding="10dp" >
+
+        <Button
+            android:id="@+id/indoormap2_choosepoint_mylocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+            android:text="@string/wodeweizhi" 
+            android:drawableLeft="@drawable/wodeweizhi"/>
+
+        <TextView
+            android:layout_width="2dp"
+            android:layout_height="fill_parent"
+            android:background="#DDDDDD" />
+
+        <Button
+            android:id="@+id/indoormap2_choosepoint_choosefrommap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/white"
+            android:text="@string/dituxuandian"
+            android:drawableLeft="@drawable/dituxuandian" />
+    </LinearLayout>
+ 	<LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:padding="10dp"
+        android:orientation="vertical" >
+        <ListView 
+            android:id="@+id/indoormap_point_search_result"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            ></ListView>
+    </LinearLayout>
+</LinearLayout>

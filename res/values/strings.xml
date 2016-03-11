@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">枢纽通</string>
+     <string name="app_version">当前版本 1.0.0</string>
+      <string name="app_detail">	枢纽通是面向北京出行人群提供北京各大公共交通枢纽室内地图定位换乘导航及其周边的公交车、地铁、机场交通、长途大巴、公共自行车租赁等交通动静态信息的一体化出行服务软件，软件由北京公联交通枢纽建设管理有限公司和北京北斗天成科技有限公司共同研发和运营。</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="search_dialog">搜索</string>
+    <string name="search">搜索</string>
+    <string name="nodata">暂无数据</string>
+    <string name="bus_starttime">首班车：</string>
+    <string name="bus_stoptime">末班车：</string>
+    <string name="busfirst">本次客车：</string>
+    <string name="bussecond">下次客车：</string>
+    <string name="busthird">后续客车：</string>
+    <string name="zhantaixinxi">车站列表</string>
+    <string name="shanghujianjie">商户简介</string>
+    <string name="cantingfengwei">餐厅氛围</string>
+    <string name="tesefuwu">特色服务</string>
+    <string name="yingyeshijian">营业时间</string>
+    <string name="luxian">路线</string>
+    <string name="dingwei">定位</string>
+    <string name="relitu">热力图</string>
+    <string name="souluxianchagongjiao">搜地点、查公交、找路线</string>
+   <string name="shuruninxiangyaochazhaodeweizhi" >请输入您想要查找的位置</string>
+    <string name="xiangxixinxi">详细信息</string>
+    <string name="sheweiqidian">设为起点</string>
+    <string name="sheweizhongdian">设为终点</string>
+    <string name="wodeweizhi">我的位置</string>
+    <string name="dituxuandian">地图选点</string>
+    <string name="wodezhongdian">我的终点</string>
+    <string name="shuaxinyemian">刷新页面</string>
+    <string name="queding">确定</string>
+    <string name="quxiao">取消</string>
+    <string name="neterror">网络状况不佳</string>
+    <string name="title_search_hint">默认搜索</string>
+    <string name="search_cancel">取消</string>
+    <string name="pull_to_refresh">下拉可以刷新</string>
+    <string name="release_to_refresh">释放立即刷新</string>
+    <string name="refreshing">正在刷新…</string>
+    <string name="not_updated_yet">暂未更新过</string>
+    <string name="updated_at">上次更新于%1$s前</string>
+    <string name="updated_just_now">刚刚更新</string>
+    <string name="time_error">时间有问题</string>
+    <string name="shuniuquan">枢纽圈</string>
+    <string name= "jichangshoumoshikebiao">机场首末车时刻表</string>
+    <string name="dongzhimen">东直门</string>
+    <string name="feijichang">飞机场</string>
+    <string name="jicchangkuaigui_detail">高峰时段，9:00至11:00和17:00至19:00，列车最小时间间隔为8分30秒。其他时段，列车间隔为10分钟。</string>
+     <string name="zhengzaixunzhao">正在为您寻找距离最近的枢纽，请您稍后。。</string>
+    <string name="shifache">始发车</string>
+    <string name="mobanche">末班车</string>
+    <string name="ditiezhancheng">地铁站程</string>
+    <string name="xianchengshijian">线程时间</string>
+    <string name="shuniujianjie">枢纽简介</string>
+    <string name="qupingfen">去评分</string>
+    <string name="guanyu">关于</string>
+    <string name="fankui">反馈与意见</string>
+    <string name="fengxiang">分享</string>
+    <string name="huangyingye">欢迎页</string>
+    <string name="chufa">出发</string>
+    <string name="daoda">到达</string>
+    <string name="chaxun">查询</string>
+    <string name="xuanzeqidian">选择起点</string>
+    <string name="xuanzezhongdian">选择终点</string>
+    <string name="fabushijian">发布时间/</string>
+    <string name="shuaxin">刷新</string>
+    <string name="guanbi">关闭</string>
+    <string name="renmingbi">¥ </string>
+    <string name="zuo">座:</string>
+    <string name="yu">余:</string>
+    <string name="qingshuruzhongdianmingchenghuozimu">请输入终点名称</string>
+    <string name="sdk_force">强制更新</string>
+    <string name="sdk_server_title">SDK 服务器</string>
+    
+    <string name="default_sdk_server">192.168.1.100:8088</string>
+    <string name="server_latest_list">服务器最新频谱</string>
+    <string name="update_button">下载</string>
+    <string name="local_latest_list">加载本地频谱</string>
+    
+    
+    <string name="sdk_ctl_init">init</string>
+    <string name="sdk_ctl_destroy">destroy</string>
+    
+    <string name="locater_ctl_start">start</string>
+    <string name="locater_ctl_stop">stop</string>
+    
+    <string name="default_building_id">1</string>
+    <string name="building_id_title">Building Id</string>
+    
+    
+
+</resources>

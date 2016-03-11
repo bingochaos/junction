@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <nlsde.junction.topbar.TopBar
+        android:id="@+id/topbar_coach_list"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/daohanglan"
+        custom:titleTextColor="#ffffff"
+        custom:titleTextSize="10dp" >
+    </nlsde.junction.topbar.TopBar>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp" >
+
+        <EditText
+            android:id="@+id/coach_list_key"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:drawableLeft="@drawable/sousuo"
+            android:background="@drawable/coach_key_bg"
+            android:hint="@string/qingshuruzhongdianmingchenghuozimu"
+            android:ems="10"
+            android:gravity="center_vertical" />
+
+        <Button
+            android:id="@+id/coach_list_cancel"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignRight="@+id/coach_list_key"
+            android:layout_centerVertical="true"
+            android:background="@drawable/indoormap_search_cancel" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="#f1efef" />
+
+    <nlsde.junction.searchbar.ListViewLoadMore
+        android:id="@+id/coach_list_list"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp" >
+    </nlsde.junction.searchbar.ListViewLoadMore>
+	
+</LinearLayout>

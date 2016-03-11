@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF" >
+    
+  <RelativeLayout
+        android:id="@+id/floorselect_topbar"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/daohanglan" >
+
+        <Button
+            android:id="@+id/floorselect_back"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/fanhui"
+            android:padding="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/floorselect_back"
+            android:layout_alignBottom="@+id/floorselect_back"
+            android:layout_centerHorizontal="true"
+            android:textColor="#ffffff"
+            android:textSize="25dp"
+            android:text="楼层选择" />
+
+        <Button
+            android:id="@+id/floorselect_choosefloor"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/daohanglan"
+            android:drawableRight="@drawable/jiantou_xiangxia"
+            android:text="F1"
+            android:textColor="@android:color/white" />
+
+    </RelativeLayout>
+ <nlsde.tools.RefreshableView 
+      android:id="@+id/refreshable_view_floorselect"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"  >
+
+ 
+    <ListView
+        android:id="@+id/floor_select" 
+        android:layout_width="fill_parent" 
+        android:layout_height="fill_parent" 
+        android:background="#ffffff"
+        
+	>
+    </ListView>
+ </nlsde.tools.RefreshableView>
+</LinearLayout>
